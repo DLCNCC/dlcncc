@@ -20,6 +20,9 @@ actions:
   - text: 热点新闻
     link: https://news.szsyw.cn/
 
+  - text: 法度
+    link: https://news.szsyw.cn/
+
 highlights:
   - header: DLCN.CC 构建数字生产力
 
