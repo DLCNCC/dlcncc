@@ -1,323 +1,305 @@
 ---
 home: true
 icon: house
-title: 项目主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+title: 首页
+heroImage: https://diglit.cn/logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: 数智未来 DLCN
+tagline: 高效工作 多彩生活 终身学习
 actions:
-  - text: 使用指南
-    icon: lightbulb
-    link: ./demo/
-    type: primary
+  - text: 数字素养网
+    icon: https://diglit.cn/logo.svg
+    link: https://szsyw.cn/
 
-  - text: 文档
-    link: ./guide/
+  - text: 学习时间网
+    link: https://learn.szsyw.cn/
+
+  - text: 热点新闻
+    link: https://news.szsyw.cn/
 
 highlights:
-  - header: 易于安装
-    image: /assets/image/box.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-    highlights:
-      - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
-      - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
+  - header: DLCN.CC 构建数字生产力
 
-  - header: 在 Markdown 中添加你想要的内容
-    description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
-    image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
     features:
-      - title: 链接检查
-        icon: clipboard-check
-        details: 检查 Markdown 链接
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
+      - title: 数智搜索
+        icon: https://szsyw.cn/wp-content/uploads/2025/03/20250325111248-c81b1.png
+        details: 资源快搜、电子书、图片、字体、资讯等内容检索
+        link: https://search.szsyw.cn/
+        
+      - title: Windows常用软件
+        icon: https://szsyw.cn/dlcnimg/win11.svg
+        details: 文件搜索、看图截图、图片处理、音视频等常用win软件
+        link: https://szsyw.cn/windows
 
-      - title: 提示容器
-        icon: box-archive
-        details: 用样式装饰 Markdown 内容
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/hint.html
+      - title: 装机指南
+        icon: https://szsyw.cn/dlcnimg/win11.svg
+        details: PE工具、装机系统、教程、激活工具、看图截图、图片处理、音视频等常用win软件
+        link: https://szsyw.cn/pc
 
-      - title: GFM 警告
-        icon: bell
-        details: GFM 风格的警告容器
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/alert.html
+      - title: 公文写作
+        icon: https://szsyw.cn/dlcnimg/gwxz.svg
+        details: 公文写作素材、好词好句、写作方法、办文办会等
+        link: https://learningtimes.cn/
 
-      - title: 选项卡
-        icon: table-columns
-        details: 使用选项卡对相似内容进行分组
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/content/tabs.html
+      - title: PPT设计与资源
+        icon: https://szsyw.cn/dlcnimg/ppt.svg
+        details: PPT工具、模版、字体、各类素材、配色、教程等
+        link: https://szsyw.cn/ppt
 
-      - title: 代码组
+      - title: 中小学教师教育资源
+        icon: https://szsyw.cn/dlcnimg/jiaoshi.svg
+        details: 教师、家长、学生均可使用，全学科教学资源
+        link: https://szsyw.cn/jiaoshi
+
+      - title: 软件搜索
         icon: code
-        details: 使用选项卡对相似代码进行分组
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/code-tabs.html
+        details: 多平台软件搜索工具，快速找到想要的软件
+        link: https://search.diglit.cn/rjss/
 
-      - title: 自定义对齐
-        icon: align-center
-        details: Markdown 中对内容进行自定义对齐
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/align.html
+      - title: AIGC人工智能
+        icon: https://szsyw.cn/dlcnimg/ai.svg
+        details: 办公、写作、图像处理、绘画、编程、智能对话、提示词等AI工具
+        link: https://szsyw.cn/ai
 
-      - title: 自定义属性
+      - title: 图书馆资源
         icon: code
-        details: 为 Markdown 元素添加属性
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/attrs.html
+        details: 全国各地高校图书馆与社会公共图书馆资源
+        link: https://szsyw.cn/libs
 
-      - title: 上下角标
+      - title: 博物馆
         icon: superscript
-        details: 轻松在 Markdown 中添加上下角标
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/sup-sub.html
+        details: 全国各地博物馆网址大全
+        link: https://szsyw.cn/mus
 
-      - title: 脚注
-        icon: quote-left
-        details: 在内容中插入脚注
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/content/footnote.html
+      - title: 英语学习
+        icon: https://szsyw.cn/dlcnimg/en.svg
+        details: 英语资讯、听力、词汇、口语、写作与翻译、语法等英语学习资源
+        link: https://szsyw.cn/english
 
-      - title: 标记
-        icon: highlighter
-        details: 标记并高亮内容
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/mark.html
+      - title: 古籍资源
+        icon: https://szsyw.cn/dlcnimg/wenxian.svg
+        details: 古籍检索、目录、影像、数字人文等古典资源学术研究导航
+        link: https://szsyw.cn/wenxian
 
-      - title: 剧透
-        icon: eraser
-        details: 添加剧透标记支持
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/spoiler.html
+      - title: 大数据
+        icon: https://szsyw.cn/dlcnimg/data.svg
+        details: 农业、互联网、交通、短视频、旅游、气象等各类大数据
+        link: https://szsyw.cn/data
 
-      - title: 任务列表
-        icon: square-check
-        details: 轻松插入任务列表
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/grammar/tasklist.html
+      - title: 视频创作
+        icon: https://szsyw.cn/dlcnimg/video.svg
+        details: 视频创作工具、素材、脚本、文案、配音、字幕、教程等资源
+        link: https://szsyw.cn/video
 
-      - title: 图片语法
-        icon: image
-        details: 使用改进的语法指定图片大小与颜色模式
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/grammar/image.html
+      - title: 政务网址导航
+        icon: https://szsyw.cn/dlcnimg/gov.svg
+        details: 全国政务网址搜索导航 在线查询、网上政务、投诉举报一网通办
+        link: https://szsyw.cn/gov
 
-      - title: 组件支持
-        icon: puzzle-piece
-        details: 在 Markdown 中轻松插入组件
-        link: https://theme-hope.vuejs.press/zh/guide/component/grammar.html
-
-      - title: 组件
-        icon: puzzle-piece
-        details: 开箱即用的常用组件
-        link: https://theme-hope.vuejs.press/zh/guide/component/built-in.html
-
-      - title: Chart.js 支持
-        icon: chart-simple
-        details: 在 Markdown 中展示 Chart.js 图表
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/chart/chartjs.html
-
-      - title: 流程图支持
-        icon: route
-        details: 在 Markdown 中直接写出流程图
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/chart/flowchart.html
-
-      - title: Mermaid 支持
-        icon: chart-pie
-        details: 在 Markdown 中添加 Mermaid 图例
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/chart/mermaid.html
-
-      - title: Plantuml 支持
-        icon: diagram-project
-        details: 在 Markdown 中添加 Plant UML 图表
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/chart/plantuml.html
-
-      - title: Tex 支持
-        icon: square-root-variable
-        details: Markdown 现在也可以支持 Tex 语法以显示公式
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/grammar/math.html
-
-      - title: 导入文件支持
-        icon: fa6-brands:markdown
-        details: 将你的文档分段，并在 Markdown 中导入
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/content/include.html
-
-      - title: 交互演示支持
-        icon: code
-        details: 你可以在 Markdown 中添加交互演示
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/playground.html
-
-      - title: Kotlin 交互演示支持
-        icon: fa6-brands:kickstarter
-        details: 响应式的 Kotlin 演示
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/kotlin-playground.html
-
-      - title: Vue 交互演示支持
-        icon: fa6-brands:vuejs
-        details: 在交互演示中展示 Vue 组件
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/vue-playground.html
-
-      - title: Sandpack 交互演示支持
-        icon: code
-        details: Sandpack 驱动的实时的编码环境
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/sandpack.html
-
-      - title: 代码案例支持
-        icon: laptop-code
-        details: 你可以很方便的插入代码案例
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/demo.html
-
-      - title: 幻灯片支持
-        icon: person-chalkboard
-        details: 通过 Reveal.js 在 Markdown 中插入幻灯片
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/content/revealjs.html
-
-  - header: 可定制的页面
-    description: 完整无障碍支持的可定制外观
-    image: /assets/image/ui.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
-    highlights:
-      - title: 深色模式
-        icon: circle-half-stroke
-        details: 可以自由切换浅色模式与深色模式
-        link: https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html
-
-      - title: 主题色切换
-        icon: palette
-        details: 支持自定义主题色并允许用户在预设的主题颜色之间切换
-        link: https://theme-hope.vuejs.press/zh/guide/interface/theme-color.html
+      - title: 新媒体运营
+        icon: https://szsyw.cn/dlcnimg/xinmeiti.svg
+        details: 新媒体作图、编辑排版、数据分析、创意广告、文案、资讯......
+        link: https://szsyw.cn
 
       - title: 更多
-        icon: ellipsis
-        details: RTL 布局，打印支持，全局按钮等
-        link: https://theme-hope.vuejs.press/zh/guide/interface/others.html
+        icon: puzzle-piece
+        details: 编辑中
+        link: https://szsyw.cn
 
-  - header: 布局
-    description: 一个完美的响应式布局。
-    image: /assets/image/layout.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-    highlights:
-      - title: 导航栏
-        icon: window-maximize
-        details: 完全可定制的导航栏以及改进的移动端外观
-        link: https://theme-hope.vuejs.press/zh/guide/layout/navbar.html
-
-      - title: 侧边栏
-        icon: fas fa-window-maximize fa-rotate-270
-        details: 从文档标题或文件结构中自动生成侧边栏
-        link: https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html
-
-      - title: 幻灯片页面
-        icon: person-chalkboard
-        details: 添加幻灯片页面以显示你喜欢的内容
-        link: https://theme-hope.vuejs.press/zh/guide/layout/slides.html
-
-      - title: 布局增强
-        icon: object-group
-        details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-        link: https://theme-hope.vuejs.press/zh/guide/layout/
-
-      - title: 更多
-        icon: ellipsis
-        details: RTL 布局，打印支持，全局按钮等
-        link: https://theme-hope.vuejs.press/zh/guide/interface/others.html
-
-  - header: 新功能
-    image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
-    features:
-      - title: 目录页面
-        icon: network-wired
-        details: 自动生成目录页以及开箱即用的目录组件
-        link: https://theme-hope.vuejs.press/zh/guide/feature/catalog.html
-
-      - title: 浏览量与评论
-        icon: comment-dots
-        details: 配合 4 个评论服务开启阅读量统计与评论支持
-        link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
-
-      - title: 文章信息
-        icon: circle-info
-        details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-        link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
-
-      - title: 文章加密
-        icon: lock
-        details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-        link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
-
-      - title: 搜索支持
-        icon: search
-        details: 支持 docsearch 和基于客户端的搜索
-        link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
-
-      - title: 代码块
-        icon: code
-        details: 自定义代码块主题、行号、行高亮、复制按钮等
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/code/fence.html
-
-      - title: 图片预览
-        icon: image
-        details: 像相册一样允许你浏览、缩放并分享你的页面图片
-        link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
-
-  - header: 博客
-    description: 通过主题创建个人博客
-    image: /assets/image/blog.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-    highlights:
-      - title: 博客功能
-        icon: blog
-        details: 通过文章的日期、标签和分类展示文章
-        link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
-
-      - title: 博客主页
-        icon: house
-        details: 全新博客主页
-        link: https://theme-hope.vuejs.press/zh/guide/blog/home.html
-
-      - title: 博主信息
-        icon: circle-info
-        details: 自定义名称、头像、座右铭和社交媒体链接
-        link: https://theme-hope.vuejs.press/zh/guide/blog/blogger.html
-
-      - title: 时间线
-        icon: clock
-        details: 在时间线中浏览和通读博文
-        link: https://theme-hope.vuejs.press/zh/guide/blog/timeline.html
-
-  - header: 高级
-    description: 增强站点与用户体验的高级功能
-    image: /assets/image/advanced.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
-    highlights:
-      - title: SEO 增强
-        icon: dumbbell
-        details: 将最终生成的网页针对搜索引擎进行优化。
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
-
-      - title: Sitemap
-        icon: sitemap
-        details: 自动为你的网站生成 Sitemap
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
-
-      - title: Feed 支持
-        icon: rss
-        details: 生成你的 Feed，并通知你的用户订阅它
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
-
-      - title: PWA 支持
-        icon: mobile-screen
-        details: 让你的网站更像一个 APP
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
-
-copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-至今 Mr.Hope
+copyright: <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备16010262号-13</a> | <img class="beian-icon" src="https://m.diglit.cn/images/ga.png" alt="公安网备案"> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132102371643" target="_blank">鲁公网安备37132102371643号</a> <a href="https://ipw.cn/ssl/?site=m.diglit.cn" title="本站支持SSL安全访问" target='_blank'><img style='display:inline-block;vertical-align:middle' alt="本站支持SSL安全访问" src="https://static.ipw.cn/icon/ssl-s1.svg"></a>
+footer: <a href="https://diglit.cn" target="_blank">数智未来 DLCN </a> © 版权所有
 ---
+
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #15a051ff 30%, #2eb3dfff);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #15a051ff 50%, #2eb3dfff 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+.VPHero .actions .VPButton.brand {
+  background-color: #45523E;
+  border-color: #45523E;
+}
+.VPHero .actions .VPButton.brand:hover {
+  background-color: #4F5B53;
+  border-color: #4F5B53;
+}
+.VPHero .actions .VPButton.brand:active {
+  background-color: #3B423C;
+  border-color: #3B423C;
+}
+</style>
+
+## 选择你的学习路径
+
+<div class="paths-container" style="display: flex; gap: 2rem; margin: 2rem 0; flex-wrap: wrap;">
+
+<div style="flex: 1; min-width: 300px; padding: 1.5rem; border-radius: 12px; background: linear-gradient(135deg, #667eea11 0%, #764ba211 100%); border: 1px solid #667eea33;">
+
+### 基础篇：零基础入门
+
+**适合人群**：从未写过代码的小白、文科生、设计师、产品经理
+
+**学习目标**：
+- 理解 Vibe Coding 是什么
+- 学会用 AI 做出你的第一个作品
+- 掌握 MVP 思维和产品感
+
+**章节预览**：
+| 章节 | 内容 |
+|------|------|
+| 0. 序章 | 自测清单、学习路径规划 |
+| 1. 觉醒 | 从码农到指挥官的思维转变 |
+| 2. 心法 | MVP 思维、不加功能的艺术 |
+| 3. 技法 | 提示词工程、PRD 编写 |
+| 4. 实战 | 从 0 到 1 做出你的作品 |
+| 5. 进阶 | 版本控制、部署、安全意识 |
+| 6. 路径 | 不同背景的学习建议 |
+
+
+</div>
+
+<div style="flex: 1; min-width: 300px; padding: 1.5rem; border-radius: 12px; background: linear-gradient(135deg, #f093fb11 0%, #f5576c11 100%); border: 1px solid #f093fb33;">
+
+### 进阶篇：全栈实战
+
+**适合人群**：有一定编程基础、想系统学习全栈开发的开发者
+
+**学习目标**：
+- 以项目交付全流程为主线：环境 → 文档 → 开发 → 部署上线
+- 第 1-7 章为“序言可阅读”，其余章节持续更新中
+- 旧版进阶（偏知识陈列）仍可阅读：[/Advanced-old/](/Advanced-old/)
+
+持续更新中。
+
+
+</div>
+
+</div>
+
+## 项目状态
+
+::: warning 内部预览版本
+- 本版本为**内部预览版**，并非正式发行版本，不代表最终品质
+- 正式版本需要等待后续对每一个章节进行深度优化、补充互动教学内容、以及完善实战练习环节
+- 如发现问题欢迎通过 [GitHub Issues](https://github.com/datawhalechina/vibe-vibe/issues) 反馈
+:::
+
+::: tip 进阶版预告：Web 互动教学
+我们正在开发**交互式教学内容**，正式版将支持：
+- **可视化原理演示** —— 通过动画和交互图解，直观理解前后端交互、请求响应流程
+- **数据库交互沙盒** —— 在浏览器中体验数据库查询、表关系设计，理解数据流转
+- **架构图解互动** —— 点击探索系统架构，理解各层职责和数据走向
+- **概念对比卡片** —— 交互式对比 SSR/CSR、REST/GraphQL 等核心概念
+
+让抽象概念变得可触摸，敬请期待！
+:::
+
+## 什么是 Vibe Coding？
+
+> "There's a new kind of coding I call 'vibe coding', where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."
+> 
+> — Andrej Karpathy, 2025
+
+**Vibe Coding** 是 2025 年最火的编程方式（Collins 词典年度词汇）。它的核心理念是：
+
+- **用自然语言描述需求**，而不是手写代码
+- **让 AI 生成代码**，你来验收和调整
+- **快速迭代**，做出能用的东西比代码完美更重要
+
+简单说：**你负责想法，AI 负责实现。**
+
+## 这门课不会让你成为资深程序员
+
+- 你不会精通算法和数据结构
+- 你不会成为框架源码专家
+- 你不会获得大厂面试通关能力
+
+但你会获得：
+
+- 独立交付产品的能力
+- 与 AI 高效协作的方法
+- 把想法变成现实的执行力
+
+这是两条不同的路径，各有价值。
+
+## 适合谁学习？
+
+| 你是谁 | 推荐路径 | 理由 |
+|--------|----------|------|
+| 设计师 / 产品经理 | 基础篇 | 零代码基础也能做出可运行的原型 |
+| 文科生 / 跨专业 | 基础篇 | 从最基础的概念开始，循序渐进 |
+| 前端开发者 | 进阶篇 | 扩展后端能力，成为全栈工程师 |
+| 后端开发者 | 进阶篇 | 了解现代前端生态和 Next.js |
+| 创业者 / 独立开发者 | 两者皆可 | 快速搭建 MVP，独立完成产品 |
+| 想提升效率的开发者 | 基础篇 + 进阶篇 | 系统学习 AI 辅助开发工作流 |
+
+## 技术栈一览
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0;">
+
+<div style="padding: 1.5rem; border-radius: 12px; background: linear-gradient(135deg, #667eea11 0%, #764ba211 100%); border: 1px solid #667eea33;">
+  <h4 style="margin-top: 0; margin-bottom: 1rem; color: #667eea;">基础篇</h4>
+  <ul style="margin: 0; padding-left: 1.5rem;">
+    <li><strong>前端基础</strong>：HTML/CSS/JS</li>
+    <li><strong>AI 工具</strong>：ChatGPT/Claude/Cursor等</li>
+    <li><strong>版本控制</strong>：Git 基础操作</li>
+    <li><strong>部署</strong>：静态网站部署</li>
+  </ul>
+</div>
+
+<div style="padding: 1.5rem; border-radius: 12px; background: linear-gradient(135deg, #f093fb11 0%, #f5576c11 100%); border: 1px solid #f093fb33;">
+  <h4 style="margin-top: 0; margin-bottom: 1rem; color: #f093fb;">进阶篇</h4>
+  <ul style="margin: 0; padding-left: 1.5rem;">
+    <li><strong>框架</strong>：Next.js + TypeScript</li>
+    <li><strong>数据层</strong>：PostgreSQL + Prisma</li>
+    <li><strong>UI 框架</strong>：Tailwind CSS + shadcn/ui</li>
+    <li><strong>认证</strong>：NextAuth.js</li>
+    <li><strong>部署</strong>：Docker + Vercel/Edgeone</li>
+  </ul>
+</div>
+
+</div>
+
+## 贡献者名单
+
+感谢以下成员为本项目做出的贡献：
+
+| 姓名 | 职务 | 简介 |
+|------|------|------|
+| <a href="http://www.guohaoqi.cn" target="_blank">齐国皓</a> | 项目负责人 & 核心贡献者 | 现就读于新加坡国立大学计算机学院, 湖南大学金融科技协会创始人 |
+| <a href="https://www.hangkangfu.cn/" target="_blank">符航康</a> | 项目负责人 & 核心贡献者 | 湖南大学金融科技协会创始成员, 一名 AI 原生的年轻人，湖南大学信息科学与工程学院24级本科生 |
+| 陈俊希 | 「优质文章篇」板块贡献者 | 湖南大学金融科技协会现任会长，湖南大学金融与统计学院24级本科生 |
+| 金龙 | 「实践篇」板块贡献者 | 北京大学学生创新学社AI俱乐部副部长，北京大学24级研究生 |
+| 舒璐璐 | 「实践篇」板块贡献者 | 湖南大学「麓山人文+」创始人，湖南大学岳麓书院23级本科生 |
+
+## 如何贡献
+
+本项目欢迎社区贡献：
+
+- 在页面底部评论区反馈问题
+- 提交 [GitHub Issues](https://github.com/datawhalechina/vibe-vibe/issues)
+- 提交 Pull Request 完善内容
 
 这是项目主页的案例。你可以在这里放置你的主体内容。
 
