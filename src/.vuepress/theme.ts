@@ -11,6 +11,10 @@ export default hopeTheme({
     url: "https://dlcn.cc",
   },
 
+  // 全局启用贡献者和变更日志显示
+  contributors: true,
+  changelog: true,
+
   logo: "https://diglit.cn/logo.svg",
 
   repo: "DLCNCC/dlcncc",
@@ -119,13 +123,20 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
+    // Giscus评论系统配置
     comment: {
       provider: "Giscus",
       repo: "DLCNCC/dlcncc",
       repoId: "R_kgDOQshvxQ",
       category: "Announcements",
-      categoryId: "DIC_kwDOQshvxQ4COD69",
+      categoryId: "DIC_kwDOQshvxc4C0EPV",
+      mapping: "pathname",
+      strict: false,
+      reactionsEnabled: true,
+      emitMetadata: true,
+      inputPosition: "bottom",
+      lang: "zh-CN",
+      loading: "lazy",
     },
 
     components: {
