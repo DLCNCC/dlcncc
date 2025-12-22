@@ -14,6 +14,12 @@ export default hopeTheme({
   // 全局启用贡献者和变更日志显示
   contributors: true,
   changelog: true,
+  // 启用最后更新时间显示
+  lastUpdated: true,
+  // 启用编辑此页链接
+  editLink: true,
+  // 配置文档分支
+  docsBranch: "main",
 
   logo: "https://diglit.cn/logo.svg",
 
@@ -123,6 +129,45 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
+    // 启用Git插件获取页面元数据
+    git: true,
+    
+    // 通知插件配置
+    notice: [
+      {
+        path: "/",
+        title: "欢迎访问 DLCNCC",
+        content: "欢迎访问 DLCNCC 文档站点！这里提供了丰富的技术文档和资源。",
+        showOnce: true,
+        actions: [
+          {
+            text: "开始浏览",
+            link: "/guide/",
+            type: "primary",
+          },
+          {
+            text: "关闭",
+          },
+        ],
+      },
+      {
+        path: "/zh/",
+        title: "Welcome to DLCNCC",
+        content: "Welcome to DLCNCC documentation site! Here you can find rich technical documents and resources.",
+        showOnce: true,
+        actions: [
+          {
+            text: "Start Browsing",
+            link: "/zh/guide/",
+            type: "primary",
+          },
+          {
+            text: "Close",
+          },
+        ],
+      },
+    ],
+    
     // Giscus评论系统配置
     comment: {
       provider: "Giscus",
@@ -133,10 +178,7 @@ export default hopeTheme({
       mapping: "pathname",
       strict: false,
       reactionsEnabled: true,
-      emitMetadata: true,
       inputPosition: "bottom",
-      lang: "zh-CN",
-      loading: "lazy",
     },
 
     components: {

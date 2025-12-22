@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "数智未来 DLCN.CC",
+  description: "数字素养与技能提升学习社区 DLCN.CC",
 
   theme,
 
