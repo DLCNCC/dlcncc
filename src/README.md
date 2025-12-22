@@ -303,3 +303,12 @@ footer: <a href="https://diglit.cn" target="_blank">数智未来 DLCN </a> © �
 - 在页面底部评论区反馈问题
 - 提交 [GitHub Issues](https://github.com/datawhalechina/vibe-vibe/issues)
 - 提交 Pull Request 完善内容
+
+
+```component VPCard
+  title: Mr.Hope
+  desc: Where there is light, there is hope
+  logo: https://mister-hope.com/logo.svg
+  link: https://mister-hope.com
+  background: rgba(253, 230, 138, 0.15)
+  ```
