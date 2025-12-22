@@ -2,7 +2,7 @@
 home: true
 icon: house
 title: 开源π计划
-heroImage: https://diglit.cn/logo.svg
+heroImage: https://szsyw.cn/dlcnimg/pai.jpg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
