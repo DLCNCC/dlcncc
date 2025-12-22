@@ -1,6 +1,6 @@
 ---
 home: true
-icon: house
+icon: https://diglit.cn/logo.svg
 title: 首页
 heroImage: https://diglit.cn/logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
