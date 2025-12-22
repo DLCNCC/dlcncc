@@ -1,8 +1,8 @@
 ---
 home: true
-icon: house
-title: 开源π计划
-heroImage: https://szsyw.cn/dlcnimg/pai.jpg
+icon: https://szsyw.cn/dlcnimg/pai.svg
+title: DLCN π计划
+heroImage: https://szsyw.cn/dlcnimg/pai.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
@@ -115,6 +115,4 @@ highlights:
         details: 编辑中
         link: https://szsyw.cn
 
-copyright: <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备16010262号-13</a> | <img class="beian-icon" src="https://m.diglit.cn/images/ga.png" alt="公安网备案"> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132102371643" target="_blank">鲁公网安备37132102371643号</a> <a href="https://ipw.cn/ssl/?site=m.diglit.cn" title="本站支持SSL安全访问" target='_blank'><img style='display:inline-block;vertical-align:middle' alt="本站支持SSL安全访问" src="https://static.ipw.cn/icon/ssl-s1.svg"></a>
-footer: <a href="https://diglit.cn" target="_blank">数智未来 DLCN </a> © 版权所有
 ---

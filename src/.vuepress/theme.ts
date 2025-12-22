@@ -20,6 +20,8 @@ export default hopeTheme({
   editLink: true,
   // 配置文档分支
   docsBranch: "main",
+  // 禁用默认版权信息（避免与页脚中已有版权信息重复）
+  copyright: false,
 
   logo: "https://diglit.cn/logo.svg",
 
@@ -34,7 +36,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "数智未来 DLCN © 版权所有<br><a href='https://beian.miit.gov.cn/' target='_blank'>鲁ICP备16010262号-14</a> | <img class='beian-icon' src='https://m.diglit.cn/images/ga.png' alt='公安网备案'> <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37132102371643' target='_blank'>鲁公网安备37132102371643号</a> <a href='https://ipw.cn/ssl/?site=dlcn.cc' title='本站支持SSL安全访问' target='_blank'><img style='display:inline-block;vertical-align:middle' alt='本站支持SSL安全访问' src='https://static.ipw.cn/icon/ssl-s1.svg'></a><br><div id='footer-info' class='footer-info'></div><script>window.addEventListener('load', function() { const loadTime = Math.round(performance.now()); const now = new Date(); const lastUpdatedTime = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0') + ' ' + String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0'); const footerInfo = document.getElementById('footer-info'); footerInfo.innerHTML = '<div class=\"footer-info-item\"><span class=\"info-label\">网站更新时间：</span><span class=\"info-value\">' + lastUpdatedTime + '</span></div><div class=\"footer-info-item\"><span class=\"info-label\">页面加载时间：</span><span class=\"info-value\">' + loadTime + 'ms</span></div>'; });</script><style>.footer-info{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin:10px 0;font-size:14px;color:#666}.footer-info-item{display:flex;align-items:center}.info-label{font-weight:500;margin-right:5px}.info-value{color:#333}@media (max-width:768px){.footer-info{flex-direction:column;align-items:center;gap:5px}}</style>",
   displayFooter: true,
 
   // 加密配置
