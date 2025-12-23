@@ -7,8 +7,8 @@ bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 追 π 不止 探索无界
-tagline: 追 π 不知 探索无界
+heroText: 精准无界 探索不止
+tagline: π 无终点，探索无界，π 计划，让每一步深耕都有回响
 actions:
   - text: 数字素养网
     icon: https://diglit.cn/logo.svg
@@ -21,7 +21,7 @@ actions:
     link: https://news.szsyw.cn/
 
   - text: 法度
-    link: https://news.szsyw.cn/
+    link: https://laws.szsyw.cn/
 
 highlights:
   - header: DLCN.CC 构建数字生产力
@@ -30,25 +30,25 @@ highlights:
       background-repeat: repeat
       background-size: initial
     features:
-      - title: 数智搜索
-        icon: https://szsyw.cn/wp-content/uploads/2025/03/20250325111248-c81b1.png
-        details: 资源快搜、电子书、图片、字体、资讯等内容检索
-        link: https://search.szsyw.cn/
+      - title: Quick Reference
+        icon: https://szsyw.cn/dlcnimg/reference.svg
+        details: 中文开发者整理的技术栈速查清单
+        link: https://projects.szsyw.cn/reference/
         
-      - title: Windows常用软件
-        icon: https://szsyw.cn/dlcnimg/win11.svg
-        details: 文件搜索、看图截图、图片处理、音视频等常用win软件
-        link: https://szsyw.cn/windows
+      - title: Linux
+        icon: https://szsyw.cn/dlcnimg/linux.ico
+        details: Linux命令搜索引擎
+        link: https://projects.szsyw.cn/linux/
 
-      - title: 装机指南
+      - title: 毛泽东生平轨迹
         icon: https://szsyw.cn/dlcnimg/win11.svg
-        details: PE工具、装机系统、教程、激活工具、看图截图、图片处理、音视频等常用win软件
-        link: https://szsyw.cn/pc
+        details: 毛泽东生平轨迹地理可视化平台
+        link: https://projects.szsyw.cn/mzd/
 
-      - title: 公文写作
-        icon: https://szsyw.cn/dlcnimg/gwxz.svg
-        details: 公文写作素材、好词好句、写作方法、办文办会等
-        link: https://learningtimes.cn/
+      - title: WeSplit
+        icon: https://szsyw.cn/dlcnimg/wesplit.svg
+        details: 自动计算聚餐旅行等活动费用分摊
+        link: https://projects.szsyw.cn/wesplit/
 
       - title: PPT设计与资源
         icon: https://szsyw.cn/dlcnimg/ppt.svg
