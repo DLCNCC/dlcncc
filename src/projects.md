@@ -50,10 +50,10 @@ highlights:
         details: 自动计算聚餐旅行等活动费用分摊
         link: https://projects.szsyw.cn/wesplit/
 
-      - title: PPT设计与资源
+      - title: 你缺失的那门计算机课
         icon: https://szsyw.cn/dlcnimg/ppt.svg
         details: PPT工具、模版、字体、各类素材、配色、教程等
-        link: https://szsyw.cn/ppt
+        link: https://projects.szsyw.cn/computer/
 
       - title: 中小学教师教育资源
         icon: https://szsyw.cn/dlcnimg/jiaoshi.svg
