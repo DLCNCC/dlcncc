@@ -7,8 +7,8 @@ bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 数智未来 DLCN
-tagline: 高效工作 多彩生活 终身学习
+heroText: 追 π 不止 探索无界
+tagline: 追 π 不知 探索无界
 actions:
   - text: 数字素养网
     icon: https://diglit.cn/logo.svg
