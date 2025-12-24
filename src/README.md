@@ -21,7 +21,7 @@ actions:
     link: https://news.szsyw.cn/
 
   - text: 法度
-    link: https://news.szsyw.cn/
+    link: https://laws.szsyw.cn/
 
 highlights:
   - header: DLCN.CC 构建数字生产力
@@ -112,7 +112,7 @@ highlights:
 
       - title: 更多
         icon: puzzle-piece
-        details: 编辑中
+        details: 完善中
         link: https://szsyw.cn
 
 
